@@ -5,17 +5,17 @@
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
-      - repo: config/movies/movies_best_of.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
-      - file: config/movies/movies.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_best_of.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_collections.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_custom.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_disocver.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_essentials.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_genre.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_holidays.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_kids.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_networks.yml
+      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_popular.yml
+      # - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_overlay.yml
 
   # TV:
   #   metadata_path:

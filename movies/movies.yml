@@ -1,0 +1,209 @@
+# @format
+
+  ############################
+  #         DISCOVER         #
+  ############################
+
+  Animated Kids Most Popular:
+    tmdb_discover:
+      limit: 30
+      with_genres: 16
+      certification_country: US
+      certification: G|PG
+      sort_by: popularity.desc
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    summary: A collection of the most popular Animated Kids movies from TMDb
+    sort_title: "*150"
+    schedule: daily
+
+  ############################
+  #         BEST OF          #
+  ############################
+
+  Best Picture:
+    imdb_list: https://www.imdb.com/list/ls560768259
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105"
+    schedule: yearly(03/01)
+  Best Animated Feature Film:
+    imdb_list: https://www.imdb.com/list/ls560364561
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105b"
+    schedule: yearly(03/01)
+  Best Cinematography:
+    imdb_list: https://www.imdb.com/list/ls560369098
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105c"
+    schedule: yearly(03/01)
+  Best Film Editing:
+    imdb_list: https://www.imdb.com/list/ls560364494
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105d"
+    schedule: yearly(03/01)
+  Best Sound:
+    imdb_list: https://www.imdb.com/list/ls560369669
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105e"
+    schedule: yearly(03/01)
+  Best Visual Effects:
+    imdb_list: https://www.imdb.com/list/ls560368042
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*105f"
+    schedule: yearly(03/01)
+  "AFI's 100":
+    imdb_list: https://www.imdb.com/list/ls027841309
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*106"
+    summary: AFI's 100 Years... 100 Movies – 10th Anniversary Edition (2007) is an updated edition to AFI"s 100 Years... 100 Movies, a list of the top 100 greatest American films of all time. Honoring the 10th anniversary of this award-winning series, a jury of 1,500 film artists, critics, and historians determined that Citizen Kane remained the greatest movie of all time. AFI stands for American Film Institute.
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2014:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*107"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2015:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2015
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*108"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2016:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*109"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2017:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*110"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2018:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*111"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2019:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*112"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2020:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2020
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*113"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best All Time:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*114"
+    schedule: monthly(10)
+  Rotten Tomatoes - Best Rom Com:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*115"
+    schedule: monthly(10)
+  Rotten Tomatoes - Best Horror:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-horror-movies-of-all-time
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*116"
+    schedule: monthly(10)
+  Rotten Tomatoes - Best LGBT:
+    trakt_list: https://trakt.tv/users/saara-v-a/lists/rotten-tomatoes-150-best-lgbt-movies-of-all-time-copy
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*117"
+    schedule: monthly(10)
+
+  ############################
+  #  HOLIDAYS BY DRAZZIZZI   #
+  ############################
+
+  Valentines Day Movies:
+    schedule: range(02/01-02/14)
+    template: { name: Holiday, holiday: "Valentine's Day" }
+    imdb_list:
+      - https://www.imdb.com/list/ls000094398
+      - https://www.imdb.com/list/ls057783436
+      - https://www.imdb.com/list/ls064427905
+    collection_order: release
+  St. Patricks Day Movies:
+    schedule: range(03/01-03/17)
+    template: { name: Holiday, holiday: "St. Patrick's Day" }
+    imdb_list: https://www.imdb.com/list/ls063934595
+    collection_order: release
+  Thanksgiving Movies:
+    schedule: range(10/01-10/14)
+    sort_title: "!AA"
+    template: { name: Holiday, holiday: Thanksgiving }
+    imdb_list:
+      - https://www.imdb.com/list/ls000835734
+      - https://www.imdb.com/list/ls091597850
+    collection_order: release
+  Halloween Movies (Big List): # Named Big List because I already have one named Halloween Movies
+    schedule: range(10/01-10/31)
+    sort_title: "!AB"
+    template: { name: Holiday, holiday: Halloween }
+    imdb_list:
+      - https://www.imdb.com/list/ls023118929
+      - https://www.imdb.com/list/ls000099714
+      - https://www.imdb.com/list/ls000058693
+      - https://www.imdb.com/search/title/?genres=horror&keywords=haunted-house&sort=moviemeter,asc
+    tmdb_collection:
+      - 91361 # Halloween Collection
+      - 8581 # A Nightmare on Elm Street Collection
+      - 1733 # The Mummy Collection
+      - 8091 # Alien Collection
+    tmdb_movie:
+      - 23437 # A Nightmare on Elm Street (2010)
+    collection_order: release
+  Christmas Movies (Big List): # Named Big List because I already have one named Christmas Movies
+    schedule: range(12/01-12/31)
+    sort_title: "!AB"
+    template: { name: Holiday, holiday: Christmas }
+    imdb_list:
+      - https://www.imdb.com/list/ls000096828
+      - https://www.imdb.com/list/ls097394442
+      - https://www.imdb.com/list/ls068976997
+      - https://www.imdb.com/list/ls027567380
+    collection_order: release
+  New Years Eve Movies:
+    schedule: range(12/26-01/05)
+    sort_title: "!AA"
+    template: { name: Holiday, holiday: "New Year's Eve" }
+    imdb_list: https://www.imdb.com/list/ls066838460

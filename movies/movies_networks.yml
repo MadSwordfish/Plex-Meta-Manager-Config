@@ -1,0 +1,191 @@
+# @format
+
+templates:
+  network:
+    optional:
+      - network
+    tmdb_network: <<network>>
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    smart_label: episode_added.desc
+collections:
+  HBO:
+    template: { name: network, network: "49, 2593, 3186, 3308" }
+  Cinemax:
+    template: { name: network, network: 359 }
+  Showtime:
+    template: { name: network, network: 67 }
+  Netflix:
+    template: { name: network, network: 213 }
+  Hulu:
+    template: { name: network, network: 453 }
+  Syfy:
+    template: { name: network, network: "77, 3701" }
+  Starz:
+    template: { name: network, network: "318, 758, 4906" }
+  HGTV:
+    template: { name: network, network: 210 }
+  TBS:
+    template: { name: network, network: "68, 160, 4888" }
+  National Geographic:
+    template: { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
+  Prime Video:
+    template: { name: network, network: 1024 }
+  YouTube:
+    template: { name: network, network: "247, 1436, 4869" }
+  FX:
+    template: { name: network, network: 88 }
+  Disney+:
+    template: { name: network, network: "2739, 2919" }
+  Apple+:
+    template: { name: network, network: 2552 }
+  Discovery:
+    template: { name: network, network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741" }
+  A&E:
+    template: { name: network, network: "129, 2639, 3688" }
+  Bravo:
+    template: { name: network, network: 74 }
+  E!:
+    template: { name: network, network: 76 }
+  Adult Swim:
+    template: { name: network, network: 80 }
+  ESPN:
+    template: { name: network, network: "29, 70, 4132" }
+  USA Network:
+    template: { name: network, network: 30 }
+  TNT:
+    template: { name: network, network: 41 }
+  Disney XD:
+    template: { name: network, network: 44 }
+  BBC:
+    template: { name: network, network: "3, 4, 493, 332" }
+  Paramount+:
+    template: { name: network, network: 4330 }
+  Nickleodeon:
+    template: { name: network, network: "13, 259, 35" }
+  PBS:
+    template: { name: network, network: 14 }
+  CBS:
+    template: { name: network, network: 16 }
+  MTV:
+    template: { name: network, network: "33, 17" }
+  Fox:
+    template: { name: network, network: "19, 2686" }
+  WB:
+    template: { name: network, network: 21 }
+  CBC:
+    template: { name: network, network: 23 }
+  BET:
+    template: { name: network, network: 24 }
+  Channel 4:
+    template: { name: network, network: 26 }
+  UPN:
+    template: { name: network, network: 40 }
+  YTV:
+    template: { name: network, network: 46 }
+  Comedy Central:
+    template: { name: network, network: 47 }
+  Cartoon Network:
+    template: { name: network, network: 56 }
+  OutTV:
+    template: { name: network, network: 61 }
+  Shudder:
+    template: { name: network, network: 2949 }
+  The CW:
+    template: { name: network, network: 71 }
+  ABC:
+    template: { name: network, network: "2, 75" }
+  TV Asahi:
+    template: { name: network, network: 103 }
+  IFC:
+    template: { name: network, network: 124 }
+
+  Popular Movies on Apple TV +:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Apple TV
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0546168
+      limit: 50
+    summary: Popular on Apple TV + now
+    url_poster: https://theposterdb.com/api/assets/206165
+
+  Popular Movies on Netflix:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Netflix
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0144901
+      limit: 50
+    summary: Popular on Netflix now
+    url_poster: https://theposterdb.com/api/assets/205048
+
+  Popular Movies on Prime Video:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Prime Video
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0476953
+      limit: 50
+    summary: Popular on Prime Video now
+    url_poster: https://theposterdb.com/api/assets/222004
+
+  Popular Movies on Hulu:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Hulu
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0218858
+      limit: 50
+    summary: Popular on Hulu now
+    url_poster: https://theposterdb.com/api/assets/206161
+
+  Popular Movies on Paramount+:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Paramount+
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0820547
+      limit: 50
+    summary: Popular on Paramount+ now
+    url_poster: https://theposterdb.com/api/assets/168828
+
+  Popular Movies on Peacock:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Peacock
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0764707
+      limit: 50
+    summary: Popular on Peacock now
+    url_poster: https://theposterdb.com/api/assets/205411
+
+  Popular Movies on Discovery+:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Discovery+
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0834810
+      limit: 50
+    summary: Popular on Discovery+ now
+    url_poster: https://theposterdb.com/api/assets/145524
+
+  Popular Movies on Disney+:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on Disney+
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0721120
+      limit: 50
+    summary: Popular on Disney+ now
+    url_poster: https://theposterdb.com/api/assets/204745
+
+  Popular Movies on HBO Max:
+    sync_mode: sync
+    collection_order: custom
+    sort_title: +0_Popular on HBO Max
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&companies=co0754095
+      limit: 50
+    summary: Popular on HBO Max now
+    url_poster: https://theposterdb.com/api/assets/168825

@@ -1,0 +1,589 @@
+# @format
+templates:
+
+collections:
+  ############################
+  #          CUSTOM          #
+  ############################
+
+  Mindfuck:
+    imdb_list: https://www.imdb.com/list/ls084006834
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*400"
+    summary: Movies that are mind bending, trippy, have big twists, have open endings, or make you think about them for days. Not all may apply. I have not watched them all. I gathered lists from multiple websites and Reddit posts.
+    schedule: monthly(10)
+  Mindfuck by LISH:
+    trakt_list: https://trakt.tv/users/lish408/lists/mindfuck
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*400b"
+    summary: Complex plot. Big plot twist. Ending twist.
+    schedule: monthly(10)
+  Mindfuck by HD Movie Lists:
+    mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*400c"
+    summary: A Growing Collection of Mindfuck Movies!
+    schedule: monthly(10)
+  James Bond:
+    imdb_list: https://www.imdb.com/list/ls084710852
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*401"
+    schedule: monthly(10)
+  Space Masterpieces:
+    imdb_list: https://www.imdb.com/list/ls084547446
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*402"
+    schedule: monthly(10)
+  Star Trek:
+    imdb_list: https://www.imdb.com/list/ls084767125
+    sync_mode: append # Append for Star Trek: Legacy
+    collection_mode: default
+    collection_order: release
+    sort_title: "*403"
+    schedule: monthly(10)
+  Star Wars:
+    imdb_list: https://www.imdb.com/list/ls084761910
+    sync_mode: append # Append for Star Wars: The Mandalorian Parts I and II
+    collection_mode: default
+    collection_order: release
+    sort_title: "*404"
+    schedule: monthly(10)
+  Rock Climbing:
+    imdb_list: https://www.imdb.com/list/ls084590179
+    sync_mode: append # Append for Dosage Collection. It got removed for some reason while on the IMDb list
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*405"
+    schedule: monthly(10)
+  Abbott & Costello:
+    imdb_list: https://www.imdb.com/list/ls084772233
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*406"
+    schedule: yearly(01/30)
+  Inspirational & Heart Warming:
+    imdb_list:
+      - https://www.imdb.com/list/ls069754038
+      - https://www.imdb.com/list/ls079599062
+      - https://www.imdb.com/list/ls052687231
+    tmdb_movie:
+      - 227306
+      - 14292
+      - 14534
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*407"
+    schedule: monthly(10)
+  True Stories:
+    imdb_list: https://www.imdb.com/list/ls021398170
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*408"
+    schedule: monthly(10)
+  Heists, Scams, Cons, and Robbers:
+    imdb_list:
+      - https://www.imdb.com/list/ls021415585
+      - https://www.imdb.com/list/ls075742206
+      - https://www.imdb.com/list/ls098660180
+      - https://www.imdb.com/list/ls068224634
+      - https://www.imdb.com/list/ls009794682
+      - https://www.imdb.com/list/ls059928685
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*409"
+    schedule: monthly(10)
+  Music:
+    imdb_list: https://www.imdb.com/list/ls021457968
+    tmdb_movie: 424694
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*410"
+    schedule: monthly(10)
+  Spy & Agent:
+    imdb_list: https://www.imdb.com/list/ls021488235
+    tmdb_movie: 458156
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*411"
+    schedule: monthly(10)
+  Prison:
+    imdb_list:
+      - https://www.imdb.com/list/ls021403323
+      - https://www.imdb.com/list/ls055859064
+      - https://www.imdb.com/list/ls053382995
+    tmdb_movie:
+      - 440471
+      - 480042
+      - 348893
+      - 51620
+      - 156717
+      - 401478
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*412"
+    schedule: monthly(10)
+  LGBT:
+    plex_collection: Rotten Tomatoes - Best LGBT
+    tmdb_movie:
+      - 79837
+      - 261776
+      - 365126
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*413"
+    schedule: monthly(10)
+  Time Travel:
+    imdb_list: https://www.imdb.com/list/ls068617191
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*414"
+    summary: The ability to travel through time is by far my favorite movie story line. Who hasn"t, at least once in their lifetime, wished they could turn back the hands of time to buy a winning lottery ticket or to set something right that once went wrong? The movies listed below have a wide range of inventive ways on how the subjects are moved across time. Many of these films use either a mental ability, a magical device or time machine, some seem to have help from a higher power, and sometimes the person just wakes up in a different time. If you love TV shows like Outlander, Timeless, Doctor Who or Quantum Leap, then this list of the best time-traveling films is for you. -rlhron
+    schedule: monthly(10)
+  Natural Disasters:
+    imdb_list: https://www.imdb.com/list/ls505219626
+    tmdb_movie:
+      - 646380
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*415"
+    schedule: monthly(10)
+  Epidemics and Pandemics:
+    imdb_list: https://www.imdb.com/list/ls505219442
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*416"
+    schedule: monthly(10)
+  Unexpectedly Amazing:
+    imdb_list: https://www.imdb.com/list/ls574663351
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*417"
+    summary: List gathered by Crystal Ro at BuzzFeed from https://www.reddit.com/r/AskReddit/comments/7uzuxq/what_was_the_most_unexpectedly_amazing_movie/?sort=top
+    schedule: yearly(01/30)
+  Parody:
+    imdb_list: https://www.imdb.com/list/ls088925450
+    mdblist_list: https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*418"
+    schedule: monthly(10)
+  Video Games (Live-action):
+    mdblist_list: https://mdblist.com/lists/awesomeaustn/movies-based-on-video-games-live-action
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*419"
+    schedule: monthly(10)
+  Cirque du Soleil:
+    mdblist_list: https://mdblist.com/lists/awesomeaustn/cirque-du-soleil
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*420"
+    schedule: monthly(10)
+  Historical Black Movies:
+    imdb_list: https://www.imdb.com/list/ls560237349
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*421"
+    schedule: monthly(10)
+  Classic Disney Animated Movies:
+    imdb_list: https://www.imdb.com/list/ls088609910
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    schedule: yearly(01/30)
+  Classic Sports Movies:
+    imdb_list: https://www.imdb.com/list/ls088609451
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    schedule: yearly(01/30)
+  Disney Channel Original Movies:
+    imdb_list: https://www.imdb.com/list/ls560667605
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    schedule: yearly(01/30)
+  Stand-up Comedy:
+    imdb_list: https://www.imdb.com/list/ls088617302
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    schedule: monthly(10)
+  #  Stand-up Comedy:
+  #    imdb_list: https://www.imdb.com/list/ls041728102
+  #    sync_mode: sync
+  #    collection_mode: default
+  #    collection_order: alpha
+  #    schedule: monthly(10)
+  X-Men:
+    imdb_list: https://www.imdb.com/list/ls560205320
+    sync_mode: append # Special Editions not included in the list (Rogue)
+    collection_mode: default
+    collection_order: alpha
+    schedule: monthly(10)
+  Disney Parks:
+    imdb_list: https://www.imdb.com/list/ls560201046
+    sync_mode: append # Append for Ultimate Walt Disney World. It got removed for some reason while on the IMDb list
+    collection_mode: default
+    collection_order: alpha
+    schedule: monthly(10)
+  My Favorite Movies:
+    imdb_list: https://www.imdb.com/list/ls550502260
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*450"
+    schedule: monthly(10)
+
+  ############################
+  #         STUDIOS          #
+  ############################
+
+  Pixar:
+    imdb_list: https://www.imdb.com/list/ls084018331
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*500"
+    schedule: weekly(friday)
+  Pixar Shorts:
+    imdb_list: https://www.imdb.com/list/ls084018915
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*501"
+    schedule: weekly(friday)
+  Pixar SparkShorts:
+    tmdb_list: https://www.themoviedb.org/list/7107731
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*502"
+    summary: SparkShorts is a series of American independent animated short films produced by Pixar Animation Studios. It consists of a program in which Pixar's employees are given six months and limited budgets to develop animated short films that were originally released on Pixar's YouTube channel, and later on Disney+.
+    schedule: weekly(friday)
+  Marvel:
+    imdb_list: https://www.imdb.com/list/ls084048577
+    sync_mode: append # Append for Marvel's Infinity Saga: The Sacred Timeline
+    collection_mode: default
+    collection_order: release
+    sort_title: "*503"
+    schedule: weekly(friday)
+  Marvel Cinematic Universe:
+    imdb_list: https://www.imdb.com/list/ls084049253
+    sync_mode: append # Append for Marvel's Infinity Saga: The Sacred Timeline
+    collection_mode: default
+    collection_order: release
+    sort_title: "*504"
+    schedule: weekly(friday)
+  Marvel Cinematic Universe (Chronological):
+    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    sync_mode: append # Append for Marvel's Infinity Saga: The Sacred Timeline
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*504b"
+    schedule: weekly(friday)
+    file_poster: /config/assets/Marvel Cinematic Universe.png
+  #  Marvel Cinematic Universe (Chronological):                           # This includes the TV Shows also
+  #    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+  #    sync_mode: append                                                   # Append for Marvel's Infinity Saga: The Sacred Timeline
+  #    collection_mode: default
+  #    collection_order: custom
+  #    sort_title: "*504b"
+  #    schedule: weekly(friday)
+  #    file_poster: /config/assets/Marvel Cinematic Universe.png
+  DC:
+    imdb_list:
+      - https://www.imdb.com/list/ls084123848
+      - https://www.imdb.com/list/ls084122077
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*505"
+    file_poster: /config/assets/DC-2.png
+    schedule: weekly(friday)
+  #  DC:
+  #    tmdb_company: 429
+  #    sync_mode: sync
+  #    collection_mode: default
+  #    collection_order: release
+  #    sort_title: "*505"
+  #    file_poster: /config/assets/DC-2.png
+  #    schedule: weekly(friday)
+  #  DC:
+  #    plex_collection:
+  #      - DC Animated Movies
+  #      - DC Live Action
+  #    sync_mode: sync
+  #    collection_mode: default
+  #    collection_order: release
+  #    sort_title: "*505"
+  #    file_poster: /config/assets/DC-2.png
+  #    schedule: weekly(friday)
+  DC Animated Movies:
+    imdb_list: https://www.imdb.com/list/ls084123848
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*506"
+    schedule: weekly(friday)
+  DC Animated Movie Universe:
+    imdb_list: https://www.imdb.com/list/ls084121860
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*507"
+    schedule: weekly(friday)
+  DC Showcase:
+    imdb_list: https://www.imdb.com/list/ls084122453
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*508"
+    schedule: weekly(friday)
+  DC Live Action:
+    imdb_list: https://www.imdb.com/list/ls084122077
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*509"
+    schedule: weekly(friday)
+  DC Extended Universe:
+    imdb_list: https://www.imdb.com/list/ls084122673
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*510"
+    schedule: weekly(friday)
+  Walt Disney Animation Studios:
+    imdb_list: https://www.imdb.com/list/ls579363081
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*511"
+    schedule: weekly(friday)
+
+  ############################
+  #         NETWORKS         #
+  ############################
+
+  Apple TV+:
+    imdb_list: https://www.imdb.com/list/ls084062897
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*600"
+    schedule: daily
+  Netflix:
+    imdb_list: https://www.imdb.com/list/ls084069524
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*601"
+    schedule: daily
+  Netflix Stand-up:
+    imdb_list: https://www.imdb.com/list/ls560028451
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*602"
+    schedule: daily
+  Prime Video:
+    imdb_list: https://www.imdb.com/list/ls084378896
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*603"
+    schedule: daily
+  Hulu:
+    imdb_list: https://www.imdb.com/list/ls084378943
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*604"
+    schedule: daily
+  HBO Max:
+    imdb_list: https://www.imdb.com/list/ls084378296
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*605"
+    schedule: daily
+  Paramount+:
+    imdb_list: https://www.imdb.com/list/ls574137821
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*606"
+    schedule: daily
+
+  ############################
+  #         HOLIDAYS         #
+  ############################
+
+  Halloween Movies:
+    imdb_list: https://www.imdb.com/list/ls084064776
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*700"
+    schedule: yearly(09/30)
+  Christmas Movies:
+    imdb_list: https://www.imdb.com/list/ls084064285
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*701"
+    schedule: yearly(11/30)
+
+  ############################
+  #          GENRES          #
+  ############################
+
+  Comedy:
+    plex_search:
+      all:
+        genre: Comedy
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Comedy movies
+    sort_title: "*200"
+    schedule: weekly(friday)
+  "'80s Comedy":
+    plex_search:
+      all:
+        decade: 1980
+        genre: Comedy
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of 80s Comedy movies
+    sort_title: "*201"
+    schedule: weekly(friday)
+  "'90s Comedy":
+    plex_search:
+      all:
+        decade: 1990
+        genre: Comedy
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of 90s Comedy movies
+    sort_title: "*202"
+    schedule: weekly(friday)
+  Action:
+    plex_search:
+      all:
+        genre: Action
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Action movies
+    sort_title: "*204"
+    schedule: weekly(friday)
+  Drama:
+    plex_search:
+      all:
+        genre: Drama
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Drama movies
+    sort_title: "*205"
+    schedule: weekly(friday)
+  Documentary:
+    plex_search:
+      all:
+        genre: Documentary
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Documentaries
+    sort_title: "*206"
+    schedule: weekly(friday)
+  Romantic Comedy:
+    plex_search:
+      all:
+        genres: Romance, Comedy
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Romantic Comedies
+    sort_title: "*207"
+    schedule: weekly(friday)
+  Biography:
+    plex_search:
+      all:
+        genre: Biography
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Biographies
+    sort_title: "*208"
+    schedule: weekly(friday)
+  Mystery:
+    plex_search:
+      all:
+        genre: Mystery
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Mysteries
+    sort_title: "*209"
+    schedule: weekly(friday)
+  Crime:
+    plex_search:
+      all:
+        genre: Crime
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Crime movies
+    sort_title: "*210"
+    schedule: weekly(friday)
+  Science Fiction:
+    plex_search:
+      all:
+        genre: Science Fiction
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Science Fiction movies
+    sort_title: "*211"
+    schedule: weekly(friday)
+  Animation:
+    plex_search:
+      all:
+        genre: Animation
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    summary: A collection of Animated movies
+    sort_title: "*212"
+    schedule: weekly(friday)

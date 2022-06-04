@@ -1,0 +1,153 @@
+# @format
+
+## This file is a template remove the .template to use the file
+# python plex_meta_manager.py -r
+libraries: # Library mappings must have a colon (:) placed after them
+  Movies:
+    metadata_path:
+      - repo: config/movies/movies_best_of.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+      - file: config/movies/movies.yml
+
+  # TV:
+  #   metadata_path:
+  #     - file: config/tv/tv.yml
+  #     - git: meisnate12/ShowCharts
+  #     - git: meisnate12/Networks
+
+  # Documentary  Films:
+  #   metadata_path:
+  #     - file: config/documentaries/film.yml
+
+  # Documentary TV:
+  #   metadata_path:
+  #     - file: config/documentaries/film.yml
+
+  # Anime:
+  #   metadata_path:
+  #     - file: anime/anime.yml
+
+  # playlist_files:
+  #   - file: config/playlists.yml
+  #   - git: meisnate12/Playlists
+  # # Music:
+  # #   metadata_path:
+  # #     - file: config/Music.yml
+
+settings: # Can be individually specified per library as well
+  cache: false
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  collection_minimum: 1
+  delete_below_minimum: false
+  tvdb_language: default
+  show_missing_assets: true
+  asset_depth: 0
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  default_collection_order:
+  item_refresh_delay: 0
+  delete_not_scheduled: false
+  only_filter_missing: false
+  show_options: false
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  playlist_report: true
+  verify_ssl: true
+  custom_repo:
+  check_nightly: false
+plex: # Can be individually specified per library as well
+  url: http://192.168.0.9:32400
+  token: mFJr9mBi6jKUzYHUscPy
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: 0f415b7da7f92958d0c6060c9d3770c1
+  language: en
+omdb:
+  apikey: 1ba07d24
+  cache_expiration: 60
+anidb:
+  username: apollonas423456
+  password: PmHyJ.PoZ4YJDRf2vicHBe3g*
+  language: en
+tautulli: # Can be individually specified per library as well
+  url: http://192.168.0.9:8182/
+  apikey: 6ee3e5e1d72041f192734383c1e66f3f
+radarr: # Can be individually specified per library as well
+  url: http://192.168.0.9:7878
+  token: ba2ae2fae5f5473fbd031492b3c0c8fd
+  version: v3
+  add: false
+  root_folder_path: /data/media/movies
+  monitor: true
+  availability: announced
+  quality_profile: Any
+  tag:
+  search: false
+  add_existing: false
+  upgrade_existing: false
+  radarr_path:
+  plex_path:
+sonarr: # Can be individually specified per library as well
+  url: http://192.168.0.9:8989
+  token: 6d4db9b9b35f4a5d9957711c00590203
+  version: v3
+  add: false
+  root_folder_path: /data/media/tv
+  monitor: all
+  quality_profile: Any
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  add_existing: false
+  upgrade_existing: false
+  sonarr_path:
+  plex_path:
+trakt:
+  client_id: #####################
+  client_secret: #####################
+  # Everything below this line is automatically generated
+  authorization:
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+    scope: public
+    created_at:
+mal:
+  client_id: b636bf70f7ee1ad18a3c00b90de98671
+  client_secret: 6bfa86d83cae990fd7f2f50b91c310241ce9f63ac692d94292b74c1e0e69d9bf
+  authorization:
+    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFjZGEyOTQ1ZWE2NjMzMDUzMjViNmVkN2ViMzhkZDIwMzBhZjQwNzMyNWI1NjY1NzIwZTAzZDFhNWMxNDI4ZmUyZDUyZDgyZTJhMTM1ZDBhIn0.eyJhdWQiOiJiNjM2YmY3MGY3ZWUxYWQxOGEzYzAwYjkwZGU5ODY3MSIsImp0aSI6ImFjZGEyOTQ1ZWE2NjMzMDUzMjViNmVkN2ViMzhkZDIwMzBhZjQwNzMyNWI1NjY1NzIwZTAzZDFhNWMxNDI4ZmUyZDUyZDgyZTJhMTM1ZDBhIiwiaWF0IjoxNjU0MzY3NTI4LCJuYmYiOjE2NTQzNjc1MjgsImV4cCI6MTY1Njk1OTUyOCwic3ViIjoiMTUxMzA4MzciLCJzY29wZXMiOltdfQ.Krmm5qELQ5CB57MZC9o7HIyvEuVKT6vKmcJ7fp0ezzYMGPhhMMSNGB4xfbMQEnBE9GWx8_oeDPZPZUEL6Mjzh0l2YX7w82W28K8lQoNIO3AfjJBD5ZBI2xVWk1GmORXQkUKErJLhxZZ-F2y8UsS2S6buuNkV1LKQAx9QfU2OSAUGaDc7CGx3aa92oF8FxissVetlUT548pjahKXFPhpGNfWn1Wl-MgkKMp2eMSLvZeORuIe5tBCk6b0Tvm3w11dDbaTXgjIZdm--PTS1q_mXzoI_dXNbQFOhqZvpJMD56aofXGxEUdDVpUwNAAm4345hdBrySnbj4KuwOZVKq8RYlg
+    token_type: Bearer
+    expires_in: 2592000
+    refresh_token: def502005ab45821f73af52379174891b903bc14a179cd8022b0c86feae10470524f1e7de80a4735e5b7e674cd6525c7ecee7a4817bd0bd209c0b44b526ffb59f07e43ac572639320e858e1c454ed3eb52543e6efecfde3a2813f31d9b95115cf901609db2bc1be2431e4ff7002e8c8faff97036867b095a855490fccd5026e400b16e5f80ef0c5f554bd47212979f933076a7df4a4fff9a53d03510fcb710865cad0ca712dc46ec2cee156c2e663b9c991af3b8c9a59ff28775a31c92e51de76b0091564592cc5350a7b54bd1816c7e42608dd58e3dc72b1a1e983e6665b782241cc8e2ca70b169f11cf1800df062752ff0a48d6ba34f24b8fe2653414d18d57980774e122a0e3da1abdc89724f1ef03a5f83311579523a5dd39aa9630a6e12e8459fb2602f1d0813eecd723053220acd1b3b68240816181f076d344682d0b1c1d124c4bf423131f6afd42b13db564e97b37c1d1619994e57ca21772a52a70d028a7366e6ef157af2abd810aecaac4c2a1fafd8acf322e6778484f53db89382aa09392b7d15b9bf72

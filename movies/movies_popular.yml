@@ -1,0 +1,63 @@
+# @format
+
+templates:
+
+collections:
+  ############################
+  #         POPULAR          #
+  ############################
+
+  IMDb Top 250:
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*100"
+    schedule: daily
+  TMDb Top Rated:
+    tmdb_top_rated: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*101"
+    schedule: daily
+  TMDb Most Popular:
+    tmdb_popular: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*102"
+    schedule: daily
+  TMDb Weekly Trending:
+    tmdb_trending_weekly: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*103"
+    schedule: daily
+  Trakt Trending:
+    trakt_trending: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*104"
+    schedule: daily
+
+  Best of 2014:
+    template: { name: Best of, year: 2014 }
+  Best of 2015:
+    template: { name: Best of, year: 2015 }
+  Best of 2016:
+    template: { name: Best of, year: 2016 }
+  Best of 2017:
+    template: { name: Best of, year: 2017 }
+  Best of 2018:
+    template: { name: Best of, year: 2018 }
+  Best of 2019:
+    template: { name: Best of, year: 2019 }
+  Best of 2020:
+    template: { name: Best of, year: 2020 }
+  Best of 2021:
+    template: { name: Best of, year: 2021 }
+  Best of 2022:
+    template: { name: Best of, year: 2022 }

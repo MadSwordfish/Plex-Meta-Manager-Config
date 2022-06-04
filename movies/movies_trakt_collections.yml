@@ -1,0 +1,66 @@
+# @format
+templates:
+
+collections:
+############################
+#    TRAKT COLLECTIONS     #
+############################
+
+# Made by Magic
+
+Trending Now (Unplayed):
+  trakt_chart:
+    chart: trending
+    limit: 100
+  sort_title: "!B Trending Now"
+  url_poster: https://raw.githubusercontent.com/Magic815/Plex-Meta-Manager-Configs/main/collection%20posters/Trakt-Trending-Now.png
+  sync_mode: sync
+  collection_mode: default
+  collection_filtering: user
+  visible_library: true
+  visible_home: true
+  visible_shared: true
+  smart_label:
+    sort_by: release.desc
+    all:
+      label: <<smart_label>>
+      unplayed: true
+  schedule: daily
+Most Watched This Week (Unplayed):
+  trakt_chart:
+    chart: watched
+    time_period: weekly
+    limit: 100
+  sort_title: "!B Watched This Week"
+  url_poster: https://raw.githubusercontent.com/Magic815/Plex-Meta-Manager-Configs/main/collection%20posters/Trakt-Most-Watched-This-Week.png
+  sync_mode: sync
+  collection_mode: default
+  collection_filtering: user
+  visible_library: false
+  visible_home: false
+  visible_shared: false
+  smart_label:
+    sort_by: release.desc
+    all:
+      label: <<smart_label>>
+      unplayed: true
+  schedule: daily
+Most Watched This Year (Unplayed):
+  trakt_chart:
+    chart: watched
+    time_period: yearly
+    limit: 200
+  sort_title: "!B Watched This Year"
+  url_poster: https://raw.githubusercontent.com/Magic815/Plex-Meta-Manager-Configs/main/collection%20posters/Trakt-Most-Watched-This-Year.png
+  sync_mode: sync
+  collection_mode: default
+  collection_filtering: user
+  visible_library: false
+  visible_home: false
+  visible_shared: false
+  smart_label:
+    sort_by: release.desc
+    all:
+      label: <<smart_label>>
+      unplayed: true
+  schedule: daily

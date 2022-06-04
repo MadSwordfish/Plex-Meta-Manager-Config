@@ -1,0 +1,21 @@
+# @format
+
+templates:
+collections:
+  ############################
+  #         DISCOVER         #
+  ############################
+
+  Animated Kids Most Popular:
+    tmdb_discover:
+      limit: 30
+      with_genres: 16
+      certification_country: US
+      certification: G|PG
+      sort_by: popularity.desc
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    summary: A collection of the most popular Animated Kids movies from TMDb
+    sort_title: "*150"
+    schedule: daily

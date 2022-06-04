@@ -5,7 +5,41 @@ collections:
   ############################
   #         BEST OF          #
   ############################
-
+  IMDb Top 250:
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*100"
+    schedule: daily
+  TMDb Top Rated:
+    tmdb_top_rated: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*101"
+    schedule: daily
+  TMDb Most Popular:
+    tmdb_popular: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*102"
+    schedule: daily
+  TMDb Weekly Trending:
+    tmdb_trending_weekly: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*103"
+    schedule: daily
+  Trakt Trending:
+    trakt_trending: 30
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*104"
+    schedule: daily
   Best Picture:
     imdb_list: https://www.imdb.com/list/ls560768259
     sync_mode: sync
@@ -27,20 +61,20 @@ collections:
     collection_order: custom
     sort_title: "*105c"
     schedule: yearly(03/01)
-  Best Film Editing:
-    imdb_list: https://www.imdb.com/list/ls560364494
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*105d"
-    schedule: yearly(03/01)
-  Best Sound:
-    imdb_list: https://www.imdb.com/list/ls560369669
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*105e"
-    schedule: yearly(03/01)
+  # Best Film Editing:
+  #   imdb_list: https://www.imdb.com/list/ls560364494
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*105d"
+  #   schedule: yearly(03/01)
+  # Best Sound:
+  #   imdb_list: https://www.imdb.com/list/ls560369669
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*105e"
+  #   schedule: yearly(03/01)
   Best Visual Effects:
     imdb_list: https://www.imdb.com/list/ls560368042
     sync_mode: sync
@@ -48,14 +82,14 @@ collections:
     collection_order: custom
     sort_title: "*105f"
     schedule: yearly(03/01)
-  "AFI's 100":
-    imdb_list: https://www.imdb.com/list/ls027841309
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*106"
-    summary: AFI's 100 Years... 100 Movies – 10th Anniversary Edition (2007) is an updated edition to AFI"s 100 Years... 100 Movies, a list of the top 100 greatest American films of all time. Honoring the 10th anniversary of this award-winning series, a jury of 1,500 film artists, critics, and historians determined that Citizen Kane remained the greatest movie of all time. AFI stands for American Film Institute.
-    schedule: yearly(01/30)
+  # "AFI's 100":
+  #   imdb_list: https://www.imdb.com/list/ls027841309
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*106"
+  #   summary: AFI's 100 Years... 100 Movies – 10th Anniversary Edition (2007) is an updated edition to AFI"s 100 Years... 100 Movies, a list of the top 100 greatest American films of all time. Honoring the 10th anniversary of this award-winning series, a jury of 1,500 film artists, critics, and historians determined that Citizen Kane remained the greatest movie of all time. AFI stands for American Film Institute.
+  #   schedule: yearly(01/30)
   Rotten Tomatoes - Best of 2014:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
     sync_mode: sync
@@ -105,6 +139,21 @@ collections:
     collection_order: custom
     sort_title: "*113"
     schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2021:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2021
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*114"
+    schedule: yearly(01/30)
+  Rotten Tomatoes - Best of 2022:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2022
+    sync_mode: sync
+    collection_mode: default
+    collection_order: custom
+    sort_title: "*115"
+    schedule: yearly(01/30)
+
   Rotten Tomatoes - Best All Time:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-top-100-movies-of-all-time
     sync_mode: sync

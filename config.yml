@@ -1,20 +1,20 @@
 # @format
 
-## This file is a template remove the .template to use the file
 # python plex_meta_manager.py -r
+
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_best_of.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_collections.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_custom.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_disocver.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_essentials.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_genre.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_holidays.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_kids.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_networks.yml
-      - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_popular.yml
+      # - repo: movies/movies_best_of
+      - repo: movies/movies_collections
+      # - repo: movies/movies_custom
+      # - repo: movies/movies_disocver
+      # - repo: movies/movies_essentials
+      # - repo: movies/movies_genre
+      # - repo: movies/movies_holidays
+      # - repo: movies/movies_kids
+      # - repo: movies/movies_networks
+      # - repo: movies/movies_popular
       # - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_overlay.yml
 
   # TV:
@@ -42,7 +42,8 @@ libraries: # Library mappings must have a colon (:) placed after them
   # #   metadata_path:
   # #     - file: config/Music.yml
 
-settings: # Can be individually specified per library as well
+settings:
+  # Can be individually specified per library as well
   cache: false
   cache_expiration: 60
   asset_directory: config/assets
@@ -77,7 +78,7 @@ settings: # Can be individually specified per library as well
   playlist_sync_to_users: all
   playlist_report: true
   verify_ssl: true
-  custom_repo:
+  custom_repo: https://github.com/MadSwordfish/Plex-Meta-Manager-Config/main/
   check_nightly: false
 plex: # Can be individually specified per library as well
   url: http://192.168.0.9:32400
@@ -89,6 +90,8 @@ plex: # Can be individually specified per library as well
 tmdb:
   apikey: 0f415b7da7f92958d0c6060c9d3770c1
   language: en
+  cache_expiration: 60
+  region:
 omdb:
   apikey: 1ba07d24
   cache_expiration: 60
@@ -133,8 +136,8 @@ sonarr: # Can be individually specified per library as well
   sonarr_path:
   plex_path:
 trakt:
-  client_id: #####################
-  client_secret: #####################
+  client_id: cc2db5ec36a808e6309b349c354735ba2f37a8f34b358e4590772a02c496e329
+  client_secret: cbfd2a7de5f7373b513e9640731eba789ba3178905bafd408df6b36ee105ef75
   # Everything below this line is automatically generated
   authorization:
     access_token:

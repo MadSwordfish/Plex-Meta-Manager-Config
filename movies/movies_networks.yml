@@ -189,3 +189,57 @@ collections:
       limit: 50
     summary: Popular on HBO Max now
     url_poster: https://theposterdb.com/api/assets/168825
+
+  ############################
+  #         NETWORKS         #
+  ############################
+
+  Apple TV+:
+    imdb_list: https://www.imdb.com/list/ls084062897
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*600"
+    schedule: daily
+  Netflix:
+    imdb_list: https://www.imdb.com/list/ls084069524
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*601"
+    schedule: daily
+  Netflix Stand-up:
+    imdb_list: https://www.imdb.com/list/ls560028451
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*602"
+    schedule: daily
+  Prime Video:
+    imdb_list: https://www.imdb.com/list/ls084378896
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*603"
+    schedule: daily
+  Hulu:
+    imdb_list: https://www.imdb.com/list/ls084378943
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*604"
+    schedule: daily
+  HBO Max:
+    imdb_list: https://www.imdb.com/list/ls084378296
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*605"
+    schedule: daily
+  Paramount+:
+    imdb_list: https://www.imdb.com/list/ls574137821
+    sync_mode: sync
+    collection_mode: default
+    collection_order: release
+    sort_title: "*606"
+    schedule: daily

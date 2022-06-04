@@ -144,3 +144,22 @@ collections:
     visible_home: true
     visible_shared: true
     visible_library: true
+
+  ############################
+  #         HOLIDAYS         #
+  ############################
+
+  Halloween Movies:
+    imdb_list: https://www.imdb.com/list/ls084064776
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*700"
+    schedule: yearly(09/30)
+  Christmas Movies:
+    imdb_list: https://www.imdb.com/list/ls084064285
+    sync_mode: sync
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "*701"
+    schedule: yearly(11/30)

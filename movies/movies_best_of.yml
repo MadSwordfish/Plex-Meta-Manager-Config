@@ -5,13 +5,13 @@ collections:
   ############################
   #         BEST OF          #
   ############################
-  IMDb Top 250:
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*100"
-    schedule: daily
+  # IMDb Top 250:
+  #   imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*100"
+  #   schedule: daily
   TMDb Top Rated:
     tmdb_top_rated: 30
     sync_mode: sync
@@ -90,48 +90,48 @@ collections:
   #   sort_title: "*106"
   #   summary: AFI's 100 Years... 100 Movies – 10th Anniversary Edition (2007) is an updated edition to AFI"s 100 Years... 100 Movies, a list of the top 100 greatest American films of all time. Honoring the 10th anniversary of this award-winning series, a jury of 1,500 film artists, critics, and historians determined that Citizen Kane remained the greatest movie of all time. AFI stands for American Film Institute.
   #   schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2014:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*107"
-    schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2015:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2015
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*108"
-    schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2016:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*109"
-    schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2017:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*110"
-    schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2018:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*111"
-    schedule: yearly(01/30)
-  Rotten Tomatoes - Best of 2019:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*112"
-    schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2014:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*107"
+  #   schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2015:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2015
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*108"
+  #   schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2016:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*109"
+  #   schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2017:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*110"
+  #   schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2018:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*111"
+  #   schedule: yearly(01/30)
+  # Rotten Tomatoes - Best of 2019:
+  #   trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
+  #   sync_mode: sync
+  #   collection_mode: default
+  #   collection_order: custom
+  #   sort_title: "*112"
+  #   schedule: yearly(01/30)
   Rotten Tomatoes - Best of 2020:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2020
     sync_mode: sync
@@ -161,24 +161,11 @@ collections:
     collection_order: custom
     sort_title: "*114"
     schedule: monthly(10)
-  Rotten Tomatoes - Best Rom Com:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*115"
-    schedule: monthly(10)
+    
   Rotten Tomatoes - Best Horror:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-horror-movies-of-all-time
     sync_mode: sync
     collection_mode: default
     collection_order: custom
     sort_title: "*116"
-    schedule: monthly(10)
-  Rotten Tomatoes - Best LGBT:
-    trakt_list: https://trakt.tv/users/saara-v-a/lists/rotten-tomatoes-150-best-lgbt-movies-of-all-time-copy
-    sync_mode: sync
-    collection_mode: default
-    collection_order: custom
-    sort_title: "*117"
     schedule: monthly(10)

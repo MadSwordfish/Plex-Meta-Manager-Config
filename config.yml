@@ -5,8 +5,8 @@
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
-      # - repo: movies/movies_best_of
-      - repo: movies/movies_collections
+      - repo: movies/movies_best_of
+      # - repo: movies/movies_collections
       # - repo: movies/movies_custom
       # - repo: movies/movies_disocver
       # - repo: movies/movies_essentials
@@ -44,7 +44,7 @@ libraries: # Library mappings must have a colon (:) placed after them
 
 settings:
   # Can be individually specified per library as well
-  cache: false
+  cache: true
   cache_expiration: 60
   asset_directory: config/assets
   asset_folders: true
@@ -55,7 +55,7 @@ settings:
   show_missing: true
   save_missing: true
   run_again_delay: 2
-  missing_only_released: false
+  missing_only_released: true
   create_asset_folders: false
   collection_minimum: 1
   delete_below_minimum: false
@@ -80,6 +80,7 @@ settings:
   verify_ssl: true
   custom_repo: https://github.com/MadSwordfish/Plex-Meta-Manager-Config/main/
   check_nightly: false
+
 plex: # Can be individually specified per library as well
   url: http://192.168.0.9:32400
   token: mFJr9mBi6jKUzYHUscPy
@@ -87,26 +88,31 @@ plex: # Can be individually specified per library as well
   clean_bundles: false
   empty_trash: false
   optimize: false
+
 tmdb:
   apikey: 0f415b7da7f92958d0c6060c9d3770c1
   language: en
   cache_expiration: 60
   region:
+
 omdb:
   apikey: 1ba07d24
   cache_expiration: 60
+
 anidb:
   username: apollonas423456
   password: PmHyJ.PoZ4YJDRf2vicHBe3g*
   language: en
+
 tautulli: # Can be individually specified per library as well
   url: http://192.168.0.9:8182/
   apikey: 6ee3e5e1d72041f192734383c1e66f3f
+
 radarr: # Can be individually specified per library as well
   url: http://192.168.0.9:7878
   token: ba2ae2fae5f5473fbd031492b3c0c8fd
   version: v3
-  add: false
+  add: true
   root_folder_path: /data/media/movies
   monitor: true
   availability: announced
@@ -115,8 +121,9 @@ radarr: # Can be individually specified per library as well
   search: false
   add_existing: false
   upgrade_existing: false
-  radarr_path:
-  plex_path:
+  radarr_path: /data/media/movies
+  plex_path: /media/media/movies
+
 sonarr: # Can be individually specified per library as well
   url: http://192.168.0.9:8989
   token: 6d4db9b9b35f4a5d9957711c00590203
@@ -135,6 +142,7 @@ sonarr: # Can be individually specified per library as well
   upgrade_existing: false
   sonarr_path:
   plex_path:
+
 trakt:
   client_id: cc2db5ec36a808e6309b349c354735ba2f37a8f34b358e4590772a02c496e329
   client_secret: cbfd2a7de5f7373b513e9640731eba789ba3178905bafd408df6b36ee105ef75
@@ -146,6 +154,7 @@ trakt:
     refresh_token:
     scope: public
     created_at:
+
 mal:
   client_id: b636bf70f7ee1ad18a3c00b90de98671
   client_secret: 6bfa86d83cae990fd7f2f50b91c310241ce9f63ac692d94292b74c1e0e69d9bf

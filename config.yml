@@ -131,7 +131,7 @@ Anime TV:
     sonarr_path: /data/media/anime_tv
     plex_path: /tv/anime_tv
 
-Anime TV:
+Documentary TV:
   metadata_path:
   sonarr: # Can be individually specified per library as well
     url: http://192.168.0.9:8991

@@ -16,32 +16,150 @@ libraries: # Library mappings must have a colon (:) placed after them
       # - repo: movies/movies_networks
       # - repo: movies/movies_popular
       # - repo: https://raw.githubusercontent.com/MadSwordfish/Plex-Meta-Manager-Config/main/movies/movies_overlay.yml
+    radarr: # Can be individually specified per library as well
+      url: http://192.168.0.9:7878
+      token: ba2ae2fae5f5473fbd031492b3c0c8fd
+      version: v3
+      add: true
+      root_folder_path: /data/media/movies
+      monitor: true
+      availability: announced
+      quality_profile: Any
+      tag:
+      search: false
+      add_existing: false
+      upgrade_existing: false
+      radarr_path: /data/media/movies
+      plex_path: /movies/movies
 
-  # TV:
-  #   metadata_path:
-  #     - file: config/tv/tv.yml
-  #     - git: meisnate12/ShowCharts
-  #     - git: meisnate12/Networks
+  Anime Movies:
+    metadata_path:
+    radarr: # Can be individually specified per library as well
+      url: http://192.168.0.9:7879
+      token: 52bcb827b731404b827e93f14cece54d
+      version: v3
+      add: true
+      root_folder_path: /data/media/anime_movies
+      monitor: true
+      availability: announced
+      quality_profile: Any
+      tag:
+      search: false
+      add_existing: false
+      upgrade_existing: false
+      radarr_path: /data/media/anime_movies
+      plex_path: /movies/anime_movies
 
-  # Documentary  Films:
-  #   metadata_path:
-  #     - file: config/documentaries/film.yml
+  Documentary Films:
+    metadata_path:
+    radarr: # Can be individually specified per library as well
+      url: http://192.168.0.9:7880
+      token: 5cb45654a82c4225a9ac2eb408f28e70
+      version: v3
+      add: true
+      root_folder_path: /data/media/documentaries_film
+      monitor: true
+      availability: announced
+      quality_profile: Any
+      tag:
+      search: false
+      add_existing: false
+      upgrade_existing: false
+      radarr_path: /data/media/documentaries_film
+      plex_path: /movies/documentaries_film
 
-  # Documentary TV:
-  #   metadata_path:
-  #     - file: config/documentaries/film.yml
+  3D Movies:
+    metadata_path:
+    radarr: # Can be individually specified per library as well
+      url: http://192.168.0.9:7881
+      token: 0f458224fa784d83b2949cde9d55120b
+      version: v3
+      add: true
+      root_folder_path: /data/media/movies-3d
+      monitor: true
+      availability: announced
+      quality_profile: Any
+      tag:
+      search: false
+      add_existing: false
+      upgrade_existing: false
+      radarr_path: /data/media/movies-3d
+      plex_path: /movies/movies-3d
 
-  # Anime:
-  #   metadata_path:
-  #     - file: anime/anime.yml
+TV:
+  metadata_path:
+    # - file: config/tv/tv.yml
+    # - git: meisnate12/ShowCharts
+    # - git: meisnate12/Networks
+  sonarr: # Can be individually specified per library as well
+    url: http://192.168.0.9:8989
+    token: 6d4db9b9b35f4a5d9957711c00590203
+    version: v3
+    root_folder_path: /data/media/tv
+    monitor: all
+    quality_profile: Any
+    language_profile: English
+    series_type: standard
+    season_folder: true
+    tag:
+    search: false
+    cutoff_search: false
+    add_missing: false
+    add_existing: false
+    upgrade_existing: false
+    sonarr_path: /data/media/tv
+    plex_path: /tv/tv
 
-  # playlist_files:
-  #   - file: config/playlists.yml
-  #   - git: meisnate12/Playlists
-  # # Music:
-  # #   metadata_path:
-  # #     - file: config/Music.yml
+Anime TV:
+  metadata_path:
+  sonarr: # Can be individually specified per library as well
+    url: http://192.168.0.9:8990
+    token: aa72b215217b436e907057b41ead5b49
+    version: v3
+    root_folder_path: /data/media/anime_tv
+    monitor: all
+    quality_profile: Any
+    language_profile: English
+    series_type: anime
+    season_folder: true
+    tag:
+    search: false
+    cutoff_search: false
+    add_missing: false
+    add_existing: false
+    upgrade_existing: false
+    sonarr_path: /data/media/anime_tv
+    plex_path: /tv/anime_tv
 
+Anime TV:
+  metadata_path:
+  sonarr: # Can be individually specified per library as well
+    url: http://192.168.0.9:8991
+    token: 2396cbb85d764f91bb206146b737f34f
+    version: v3
+    root_folder_path: /data/media/documentaries
+    monitor: all
+    quality_profile: Any
+    language_profile: English
+    series_type: anime
+    season_folder: true
+    tag:
+    search: false
+    cutoff_search: false
+    add_missing: false
+    add_existing: false
+    upgrade_existing: false
+    sonarr_path: /data/media/documentaries
+    plex_path: /tv/documentaries
+
+# playlist_files:
+#   - file: config/playlists.yml
+#   - git: meisnate12/Playlists
+# Music:
+#   metadata_path:
+#     - file: config/Music.yml
+
+######################################################################
 settings:
   # Can be individually specified per library as well
   cache: true
@@ -107,41 +225,6 @@ anidb:
 tautulli: # Can be individually specified per library as well
   url: http://192.168.0.9:8182/
   apikey: 6ee3e5e1d72041f192734383c1e66f3f
-
-radarr: # Can be individually specified per library as well
-  url: http://192.168.0.9:7878
-  token: ba2ae2fae5f5473fbd031492b3c0c8fd
-  version: v3
-  add: true
-  root_folder_path: /data/media/movies
-  monitor: true
-  availability: announced
-  quality_profile: Any
-  tag:
-  search: false
-  add_existing: false
-  upgrade_existing: false
-  radarr_path: /data/media/movies
-  plex_path: /media/media/movies
-
-sonarr: # Can be individually specified per library as well
-  url: http://192.168.0.9:8989
-  token: 6d4db9b9b35f4a5d9957711c00590203
-  version: v3
-  add: false
-  root_folder_path: /data/media/tv
-  monitor: all
-  quality_profile: Any
-  language_profile: English
-  series_type: standard
-  season_folder: true
-  tag:
-  search: false
-  cutoff_search: false
-  add_existing: false
-  upgrade_existing: false
-  sonarr_path:
-  plex_path:
 
 trakt:
   client_id: cc2db5ec36a808e6309b349c354735ba2f37a8f34b358e4590772a02c496e329
